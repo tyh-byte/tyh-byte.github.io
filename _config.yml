@@ -21,7 +21,7 @@ blog_button:
 
 # Navigation buttons in the front page.
 nav:
-    - {title: Projects, description: My Projects, url: 'https://github.com/AmazingChen/VHabit'}
+    - {title: Projects, description: My Projects, url: 'https://github.com/tyh-byte/java'}
     # - {title: Another Button, description: A button, url: 'http://example.com'}
 
 # Pagination
@@ -36,8 +36,8 @@ comment:
     
 # Social
 social:
-    github: AmazingChen
-    mail: shixianjingla@gmail.com
+    github: tyh-byte
+    mail: tyhuage@126.com
 
 # Google Analytics
 ga:
