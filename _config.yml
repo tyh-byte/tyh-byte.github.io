@@ -1,43 +1,45 @@
-# Site settings
-title: Jekyll-Uno
-description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
-url: 'http://joshgerdes.com/jekyll-uno'
-baseurl: '/jekyll-uno'
-# google_analytics: 'UA-XXXXXX-X'
-# disqus_shortname: 'your-disqus-name'
+# Basic
+title: tyh-byte
+subtitle: 海与山，风和月。
+description: A Learner.
+creator: <a href="http://onev.cat">@onevcat</a>
 
-author:
-  name: 'Josh Gerdes'
-  email: josh@joshgerdes.com
-  twitter_username: joshgerdes
-  facebook_username: joshgerdes
-  github_username:  joshgerdes
-  linkedin_username:  joshgerdes
+url: "https://tyh-tybe.github.io/#blog"
 
-defaults:
-  -
-    scope:
-      path: ''
-      type: 'posts'
-    values:
-        layout: 'post'
+permalink: /:year/:month/:title/
 
-# Build settings
-destination: _site
-paginate: 10
-permalink: /:year/:title/
-markdown: kramdown
+# Format
 highlighter: rouge
 
-sass:
-    sass_dir: _sass
-    style: compressed
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+# cover_color: red
 
-kramdown:
-  # use Github Flavored Markdown
-  input: GFM
-  # do not replace newlines by <br>s
-  hard_wrap: false
+# The blog button should not be removed.
+blog_button:
+    title: Blog
+    description: Visit blog
 
-plugins: ['jekyll-paginate']
-exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
+# Navigation buttons in the front page.
+nav:
+    - {title: Projects, description: My Projects, url: 'https://github.com/AmazingChen/VHabit'}
+    # - {title: Another Button, description: A button, url: 'http://example.com'}
+
+# Pagination
+plugins: [jekyll-paginate]
+paginate: 10
+paginate_path: "page/:num/"
+
+# Comment
+comment:
+    disqus: vno-jekyll
+    # duoshuo: 
+    
+# Social
+social:
+    github: AmazingChen
+    mail: shixianjingla@gmail.com
+
+# Google Analytics
+ga:
+    # id: your_ga_id
+    # host: your_host
