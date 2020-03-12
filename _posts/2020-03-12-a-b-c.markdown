@@ -1,0 +1,8 @@
+﻿---
+layout: post
+title: 这是写这篇文章的名字
+
+---
+
+
+我的题目是:{{page.title}}
